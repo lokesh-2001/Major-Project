@@ -1,6 +1,6 @@
-#Major-Project
+# Major-Project
 
-###Environmental Condition Monitoring System based on Edge-Fog Computing using Machine Learning
+### Environmental Condition Monitoring System based on Edge-Fog Computing using Machine Learning
 
 
 
@@ -15,12 +15,11 @@ Steps followed for setting up master node:
 
 
 
+### Folder Structure
 
-**Folder Structure **
 The master node consists of following files and folders : 
 
-**csv/ : **
-Consists csv files for ML model training.  Book2.csv was used to train the model.
+**csv/ :** Consists csv files for ML model training.  Book2.csv was used to train the model.
 **ml code/ :**
 Consists code for ML model in both .ipynb and .py file
 
@@ -34,9 +33,11 @@ Consists of all the functions for the application created in the form of differe
 - register.py: Python file which handles the functionality of register page
 - writeToGs.py: Python file which handles the functionality of writing to google sheets.
 
-**static/css/ :** contains styles.css which handles the styling of web pages
+**static/css/ :** 
+Contains styles.css which handles the styling of web pages
 
-**templates/: ** contains templates for different pages of the application
+**templates/:** 
+Contains templates for different pages of the application
 
 - 404.html: html page template for 404 page
 - home.html: html page template for home page
@@ -58,7 +59,9 @@ Follow the link displayed on the terminal:
 http://127.0.0.1:5000/
 
 To get the predictions click on Predictions Button. You will be redirected to the login page. Login onto the application using credentials: 
+
 Email: worker1@gmail.com
+
 Password: worker1
 
 After logging in successfully you can view the current temperature and humidity with the prediction Rain Today.
