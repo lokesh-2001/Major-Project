@@ -10,8 +10,10 @@ A master node is a fog node that is responsible for coordinating the activities 
 Steps followed for setting up master node:
 1. Git clone the master branch.
 2. Install the libraries using command : 
-`pip install  flask numpy pandas pickle scikit-learn pymongo`
-4. Download Google Auth.json file from [Google-auth.json](https://drive.google.com/file/d/1HkV1gi5XPWU2rzTopRKkmC2RtRE8gvyL/view?usp=sharing "Google-auth.json") and place this file in the scripts folder. This file will allow you to read and write into google sheets using Google Sheets API.
+
+		pip install flask numpy pandas pickle scikit-learn pymongo
+
+3. Download Google Auth.json file from [Google-auth.json](https://drive.google.com/file/d/1HkV1gi5XPWU2rzTopRKkmC2RtRE8gvyL/view?usp=sharing "Google-auth.json") and place this file in the scripts folder. This file will allow you to read and write into google sheets using Google Sheets API.
 
 
 
@@ -54,7 +56,9 @@ Contains templates for different pages of the application
 ###  How to use the Application
 
 Run the following command in terminal to run the application: 
-	`python app.py`
+
+	python app.py
+		
 Follow the link displayed on the terminal:
 http://127.0.0.1:5000/
 
